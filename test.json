@@ -1,0 +1,23 @@
+{
+  "info": {
+    "code": "12345678",
+    "status": 2,
+    "message": "repeat name"
+  },
+  "artical": {
+      "code": "1",
+      "data": {
+          "info": [{"name": "json1"}, {"name": "qiong"}]
+      }
+  },
+  "test": [{"id":1, "name": "json"}, {"id":2, "name": "json2"}, {"id":3, "name": "json3"}],
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "typicode" }
+  ],
+  "manage": {
+    "options": {
+        "item": [{"name":12}, {"name":13}]
+    }
+}
+  
+}

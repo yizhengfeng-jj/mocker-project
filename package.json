@@ -1,0 +1,43 @@
+{
+  "name": "motest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.0",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-react": "^7.0.0",
+    "antd": "^3.20.2",
+    "axios": "^0.19.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-import": "^1.12.0",
+    "css-loader": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "install": "^0.13.0",
+    "json-server": "^0.15.0",
+    "ladash": "^1.2.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "mock": "^0.1.1",
+    "mocker-api": "^1.7.6",
+    "mockjs": "^1.0.1-beta3",
+    "npm": "^6.10.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.35.3",
+    "webpack-api-mocker": "^1.7.6",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "webpack-dev-server",
+    "mock": "webpack-dev-server --env.mock",
+    "json-mock": "json-server --watch ./json-mocker/index.js --port 3004",
+    "jsonServer": "node server/mockServer.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
